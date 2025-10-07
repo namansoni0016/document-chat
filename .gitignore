@@ -6,3 +6,4 @@ venv/
 .idea/
 # ignore the .env file
 .env
+.DS_Store

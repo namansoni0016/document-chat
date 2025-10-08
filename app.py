@@ -88,8 +88,6 @@ for doc in chunked_documents:
     print("--- Generating embeddings --- ")
     doc["embedding"] = get_hf_embeddings(doc["text"])
 
-print(doc["embedding"])
-
 # Inserting in db
 for doc in chunked_documents:
     print("--- Inserting into chrom₹aDB ---")

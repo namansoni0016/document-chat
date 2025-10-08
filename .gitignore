@@ -1,3 +1,6 @@
+#ignore chroma persistant storage that is locally created
+chroma_persistent_storage/
+
 # ignore the venv directory
 venv/
 # ignore the .vscode directory
@@ -7,6 +10,3 @@ venv/
 # ignore the .env file
 .env
 .DS_Store
-
-#ignore chroma persistant storage that is locally created
-chroma_persistent_storage/

@@ -7,3 +7,6 @@ venv/
 # ignore the .env file
 .env
 .DS_Store
+
+#ignore chroma persistant storage that is locally created
+chroma_persistant_storage/

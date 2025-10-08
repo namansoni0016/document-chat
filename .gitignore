@@ -9,4 +9,4 @@ venv/
 .DS_Store
 
 #ignore chroma persistant storage that is locally created
-chroma_persistant_storage/
+chroma_persistent_storage/

@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
 import chromadb
-from chromadb.utils import embedding_functions
 from groq import Groq
 from sentence_transformers import SentenceTransformer
 
